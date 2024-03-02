@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Detail of our VR stall:</title>
+  <title>Detail of our VR stall</title>
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
   <style>
     body {
       background-color: #74b9fe;
@@ -28,6 +29,29 @@
     .details-card {
       margin-top: 50px;
     }
+    .button-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+  
+    .button-34 {
+      background-color: #f2f2f2;
+      border: none;
+      border-radius: 0.25rem;
+      color: #333;
+      font-size: 1rem;
+      padding: 0.5rem 1rem;
+      text-align: center;
+      text-decoration: none;
+      display: block;
+      width: 100%;
+    }
+  
+    .button-34:hover {
+      background-color: #ddd;
+    }
   </style>
 </head>
 <body>
@@ -43,15 +67,19 @@
             <h5 class="card-title" style="color: #74b9fe;">VR Stall (SMC innovex)</h5>
             <div>
             <ul class="list-group list-group-flush" style="color: #3078c0;">
-              <li class="list-group-item"> - This stall is to purely promote technology in  the entertainment industry.</li>
-              <li class="list-group-item"> - This stall shows how VR works and how it shapes gaming and adventures.</li>
-              <li class="list-group-item">Location: <br> Sukuna Multiple Campus (SMC)</li>
-              <li class="list-group-item">Developers and Handlers: 
-              <ol>- Aashutosh Khatiwada, Phone Number:974-1881751</ol>
-              <ol>- Aswasan Khadka, Phone Number:982-0711715 </ol>
-              <ol>- Nikhil Poudel, Phone Number:981-4964191</ol>
-              <ol>- Sugam Pokhrel, Phone Number:982-0314388</ol>
-             </li>
+              <ul class="list-group">
+                <li class="list-group-item"> This stall is to purely promote technology in the entertainment industry.</li>
+                <li class="list-group-item"> This stall shows how VR works and how it shapes gaming and adventures.</li>
+                <li class="list-group-item">Location: <br> Sukuna Multiple Campus (SMC)</li>
+                <li class="list-group-item">Developers and Handlers:
+                    <ol>
+                        <li><a class="button-34" role="button" href="https://aashutoshkhatiwada.com.np/">Aashutosh Khatiwada</a>
+                        <li><a class="button-34" role="button" href="https://aswasankhadka.com.np/">Aswasan Khadka</a>
+                        <li><a class="button-34" role="button" href="https://nikhilpoudel.com.np/">Nikhil Poudel</a> 
+                        <li><a class="button-34" role="button" href="https://sugampokhrel.com.np/">Sugam Pokhrel</a> 
+                    </ol>
+                </li>
+            </ul>
             </ul>
           </div>
         </div>
